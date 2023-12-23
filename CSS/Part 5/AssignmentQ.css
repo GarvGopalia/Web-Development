@@ -1,0 +1,40 @@
+#container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    font-size: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#navbar {
+    height: 50px;
+    width: 900px;
+    border: 2px solid lightseagreen;
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.item {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 5px;
+    line-height: 50px;
+}
