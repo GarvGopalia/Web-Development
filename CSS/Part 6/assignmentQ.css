@@ -1,0 +1,101 @@
+.container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    grid-template-rows: repeat(12 ,1fr);
+    grid-gap: 10px;
+}
+
+.container div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.header {
+    grid-column: 1/13;
+}
+
+.sidebar {
+    grid-column: 1/4;
+    grid-row: 2/12;
+}
+
+.nav {
+    grid-column: 4/10;
+}
+
+.main {
+    grid-row: 3/12;
+    grid-column: 4/10;
+}
+
+.ads {
+    grid-column: 10/13;
+    grid-row: 2/12;
+}
+
+.footer {
+    grid-column: 1/13;
+}
+
+.container1 {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12 ,1fr);
+    grid-template-rows: repeat(12 ,1fr);
+    grid-gap: 10px;
+}
+
+.container1 div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.header1 {
+    grid-column: 1/13;
+}
+
+.sidebar1 {
+    grid-column: 1/4;
+    grid-row: 3/10;
+}
+
+.nav1 {
+    grid-column: 1/13;
+}
+
+.main1 {
+    grid-row: 3/10;
+    grid-column: 4/13;
+}
+
+.ads1 {
+    grid-column: 1/4;
+}
+
+.footer1 {
+    grid-column: 4/13;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
