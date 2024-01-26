@@ -3,6 +3,7 @@ const app = express();
 
 const port = 8080;
 
+app.use(express.static)
 app.set("view engine","ejs");
 
 app.get("/", (req, res) => {
@@ -11,7 +12,14 @@ app.get("/", (req, res) => {
 
 app.get("/ig/:username", (req, res) => {
     let {username} = req.params;
-    res.render("instagram.ejs",{username})
+    const instData = require("./data.json");
+    const data = instData[username];
+    if(data){
+        res.render("instagram.ejs", {data});
+    } else {
+        res.render("error.ejs");
+    }
+    
 
 })
 
