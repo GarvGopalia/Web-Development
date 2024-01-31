@@ -1,0 +1,16 @@
+h1 {
+    color: maroon;
+}
+
+.post {
+    background-color: blanchedalmond;
+}
+
+.user {
+    font-style: italic;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
