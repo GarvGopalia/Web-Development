@@ -8,9 +8,26 @@ const connection = mysql.createConnection({
     password: 'garvpmrs7442'
   });
 
+let getRandomUser = () =>  {
+    return [
+       faker.datatype.uuid(),
+       faker.internet.userName(),
+       faker.internet.email(),
+       faker.internet.password(),
+    ];
+};
+
+let q = "INSERT INTO user (id, username, email, password) VALUES ?";
+
+let data = [];
+for(let i=1; i<=100; i++){
+    data.push(getRandomUser());//100 fake users
+}
+
+//Inserting New Data
 try {
-    connection.query("SHOW TABLES", (err, result) =>{
-        if(err) throw err;
+    connection.query(q, [data], (err, result) =>{
+        if (err) throw err;
         console.log(result);
     });  
 } catch {
@@ -18,12 +35,3 @@ try {
 }
 
 connection.end();
-
-let getRandomUser = () =>  {
-    return {
-      userId: faker.datatype.uuid(),
-      username: faker.internet.userName(),
-      email: faker.internet.email(),
-      password: faker.internet.password(),
-    };
-};
