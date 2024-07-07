@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div {
     background-color: yellow;
 }
@@ -12,4 +13,20 @@ input {
 
 button {
     background-color: inherit;
+=======
+div {
+    background-color: yellow;
+}
+
+form {
+    background-color: red;
+}
+
+input {
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+>>>>>>> origin/main
 }

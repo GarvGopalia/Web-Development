@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div {
     height: 200px;
     width:  200px;
@@ -7,4 +8,15 @@ div {
 #opa {
     background-color: #ffa511;
     opacity: 0.1;
+=======
+div {
+    height: 200px;
+    width:  200px;
+    background-color: rgba(255,0,0,1);
+}
+
+#opa {
+    background-color: #ffa511;
+    opacity: 0.1;
+>>>>>>> origin/main
 }

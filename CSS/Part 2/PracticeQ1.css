@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: 'Courier New';
 }
@@ -13,4 +14,21 @@ h1 {
 
 .userbtn {
     background-color: aqua;
+=======
+* {
+    font-family: 'Courier New';
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: white;
+}
+
+.userbtn {
+    background-color: aqua;
+>>>>>>> origin/main
 }

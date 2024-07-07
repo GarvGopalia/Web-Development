@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  span{
     /* background-color: pink; */
     border: 2px solid black;
@@ -15,4 +16,23 @@
     border: 2px solid black;
     display: inline-block;
     margin: 5px;
+=======
+ span{
+    /* background-color: pink; */
+    border: 2px solid black;
+    color: aqua;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 50px;
+}
+
+#one,#two,#three {
+    height: 200px;
+    width: 200px;
+    background-color: limegreen;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 5px;
+>>>>>>> origin/main
 }

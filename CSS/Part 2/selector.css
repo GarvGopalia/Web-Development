@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: "Courier New";
 
@@ -75,4 +76,83 @@ p::first-line {
 
 p::selection {
     background-color: rgb(199, 192, 58);
+=======
+* {
+    font-family: "Courier New";
+
+}
+
+h3 {
+    color: purple;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: pink;
+}
+
+p a {
+    color: purple;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: green;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    color: green;
+    font-weight: bolder;
+}
+
+input[type="radio"]:checked + label {
+    color: red;
+    font-weight: bolder;
+}
+
+.post:nth-last-of-type(1) {
+    background-color: blanchedalmond;
+}
+
+h1::first-letter {
+    color: green;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: rgb(199, 192, 58);
+>>>>>>> origin/main
 }

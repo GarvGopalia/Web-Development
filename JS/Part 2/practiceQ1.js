@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let size = "S"
 
 if (size =="XL") {
@@ -14,4 +15,22 @@ else if (size =="S") {
 }
 else {
     console.log("Invalid Input!!")
+=======
+let size = "S"
+
+if (size =="XL") {
+    console.log("price is Rs. 250")
+}
+else if (size =="L") {
+    console.log("price is Rs. 250")
+}
+else if (size =="M") {
+    console.log("price is Rs. 250")
+}
+else if (size =="S") {
+    console.log("price is Rs. 250")
+}
+else {
+    console.log("Invalid Input!!")
+>>>>>>> origin/main
 }

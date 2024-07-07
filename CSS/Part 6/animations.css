@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box {
     height: 100px;
     width: 300px;
@@ -15,3 +16,22 @@
         background-color: slateblue;
     }
 }
+=======
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation: fontAnimation 2s ease-in 0s infinite alternate;
+}
+
+@keyframes fontAnimation {
+    from { 
+        font-size: 20px;
+        background-color: pink;
+    }
+    to {
+        font-size: 40px;
+        background-color: slateblue;
+    }
+}
+>>>>>>> origin/main

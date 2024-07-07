@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     background-color: yellow;
     border: 2px solid black;
@@ -26,4 +27,34 @@ h1 {
         background-color: aqua;
         color: brown;
     }
+=======
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width: 400px) {
+    h1 {
+        background-color: red;
+        color: white;
+    }
+    div {
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+    }
+}
+
+@media (min-width: 401px){
+    h1 {
+        background-color: greenyellow;
+    }
+}
+
+@media (orientation :landscape) {
+    h1 {
+        background-color: aqua;
+        color: brown;
+    }
+>>>>>>> origin/main
 }

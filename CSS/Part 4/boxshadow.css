@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div {
     width: 200px;
     height: 50px;
@@ -5,4 +6,13 @@ div {
     background-color: #7aa874;
     margin: 10px auto;
     box-shadow: 2px 2px 10px black;
+=======
+div {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px black;
+>>>>>>> origin/main
 }

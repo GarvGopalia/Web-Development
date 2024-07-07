@@ -1,10 +1,9 @@
 const express = require("express");
 const app = express();
-const path = require("path")
 
 const port = 8080;
 
-app.use(express.static(path.join(__dirname, "public")))
+app.use(express.static)
 app.set("view engine","ejs");
 
 app.get("/", (req, res) => {
@@ -20,6 +19,8 @@ app.get("/ig/:username", (req, res) => {
     } else {
         res.render("error.ejs");
     }
+    
+
 })
 
 

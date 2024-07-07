@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .box {
     height: 150px;
     width: 150px;
@@ -14,4 +15,22 @@
     background-color: darksalmon;
     position: relative;
     bottom: 50px;
+=======
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: aquamarine;
+    /* z-index: 1; not applicable as position is not given. If position is static or default it will not be applicable*/
+}
+
+.two {
+    background-color: darksalmon;
+    position: relative;
+    bottom: 50px;
+>>>>>>> origin/main
 }
